@@ -1,0 +1,128 @@
+html,
+body,
+.wrapper {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body>.wrapper {
+  position: relative;
+  height: auto;
+  min-height: 100%
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  color: #1C2B3D;
+}
+
+p {
+  color: #1C2B3D;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.bg-header {
+  background-color: #F8FAFB;
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #244C73;
+  border: none;
+}
+
+.btn-link {
+  color: #7C7D7E;
+  font-size: 0.875rem;
+}
+
+.form-group input {
+  height: 60px;
+  background-color: #F8FAFB;
+  color: #7C7D7E;
+  border-radius: 8px;
+  border: none;
+}
+
+.form-group label {
+  color: #7C7D7E;
+  font-size: 0.875rem;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 180px;
+}
+
+@media (max-width: 767px) {
+
+  .bg {
+    width: 100%;
+    height: 80px;
+    background-color: #F8FAFB;
+    background-image: none !important;
+  }
+
+  .content-form {
+    max-width: 300px;
+    margin: 50px auto 0;
+  }
+
+  .btn-submit {
+    min-width: 130px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0.75rem;
+    border-radius: 15px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../images/bg_1.jpg);
+    background-size: cover;
+  }
+
+  .btn-submit {
+    min-width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 0.875rem;
+    border-radius: 20px;
+  }
+
+  .logo {
+    width: 180px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px 15px 10px;
+    margin: 15px 20px;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1440px) {}
